@@ -6,13 +6,11 @@
 /*   By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 16:21:31 by bsengeze          #+#    #+#             */
-/*   Updated: 2023/12/25 03:42:46 by bsengeze         ###   ########.fr       */
+/*   Updated: 2023/12/25 22:23:25 by bsengeze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Contact.hpp"
-#include <iomanip>
-#include <iostream>
 
 Contact::Contact()
     : firstName(""), lastName(""), nickname(""), phoneNumber(""),

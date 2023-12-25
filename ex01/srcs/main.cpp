@@ -6,13 +6,11 @@
 /*   By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 16:21:45 by bsengeze          #+#    #+#             */
-/*   Updated: 2023/12/25 02:25:05 by bsengeze         ###   ########.fr       */
+/*   Updated: 2023/12/25 22:25:15 by bsengeze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
-#include <iostream>
-#include <string>
 
 int main() {
   PhoneBook phoneBook;

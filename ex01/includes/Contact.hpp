@@ -6,13 +6,15 @@
 /*   By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 16:22:10 by bsengeze          #+#    #+#             */
-/*   Updated: 2023/12/25 02:36:25 by bsengeze         ###   ########.fr       */
+/*   Updated: 2023/12/25 22:23:32 by bsengeze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CONTACT_HPP
 #define CONTACT_HPP
 
+#include <iomanip>
+#include <iostream>
 #include <string>
 
 class Contact {
