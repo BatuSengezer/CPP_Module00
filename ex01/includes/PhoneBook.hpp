@@ -6,7 +6,7 @@
 /*   By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 16:22:02 by bsengeze          #+#    #+#             */
-/*   Updated: 2023/12/25 01:07:26 by bsengeze         ###   ########.fr       */
+/*   Updated: 2023/12/25 23:33:23 by bsengeze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 class PhoneBook {
 public:
   PhoneBook();
+  ~PhoneBook();
   void addContact();
   void searchContact() const;
 

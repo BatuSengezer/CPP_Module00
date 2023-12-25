@@ -6,7 +6,7 @@
 /*   By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 16:22:10 by bsengeze          #+#    #+#             */
-/*   Updated: 2023/12/25 22:23:32 by bsengeze         ###   ########.fr       */
+/*   Updated: 2023/12/25 23:32:54 by bsengeze         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 class Contact {
 public:
   Contact();
+  ~Contact();
   void setDetails();
   void displaySummary(int index) const;
   void displayDetails() const;
