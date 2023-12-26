@@ -15,7 +15,7 @@ SRCS	= $(addprefix $(SRC_DIR), $(SRC))
 OBJ		= $(SRC:.cpp=.o)
 OBJS 	= $(addprefix $(OBJ_DIR), $(OBJ))
 
-all: $(OBJ_DIR) $(NAME) 
+all: $(OBJ_DIR) $(SRCS) $(OBJS) $(NAME) 
 
 $(OBJ_DIR):
 	mkdir $(OBJ_DIR)

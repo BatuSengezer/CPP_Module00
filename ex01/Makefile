@@ -6,7 +6,7 @@
 #    By: bsengeze <bsengeze@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/25 03:42:56 by bsengeze          #+#    #+#              #
-#    Updated: 2023/12/25 03:42:57 by bsengeze         ###   ########.fr        #
+#    Updated: 2023/12/26 22:53:28 by bsengeze         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRCS	= $(addprefix $(SRC_DIR), $(SRC))
 OBJ		= $(SRC:.cpp=.o)
 OBJS 	= $(addprefix $(OBJ_DIR), $(OBJ))
 
-all: $(OBJ_DIR) $(NAME) 
+all: $(OBJ_DIR) $(SRCS) $(OBJS) $(NAME) 
 
 $(OBJ_DIR):
 	mkdir $(OBJ_DIR)
