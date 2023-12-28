@@ -25,7 +25,7 @@ $(OBJ_DIR)%.o: $(SRC_DIR)%.cpp
 
 $(NAME): $(OBJS)
 		$(CC) $(FLAGS) $(OBJS) -o $(NAME)
-		@echo "$(GREEN) Compiled with $(CFLAGS)$(RESET)"
+		@echo "$(GREEN) Compiled with $(FLAGS)$(RESET)"
 
 clean:
 		$(RM) $(OBJ_DIR)
